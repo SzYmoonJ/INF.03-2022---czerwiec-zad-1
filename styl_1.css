@@ -1,0 +1,51 @@
+﻿html {
+	font-family: Helvetica;
+}
+img{
+	box-shadow: 10px 10px 7px DimGray;
+	margin: 20px;
+	width: 400px;
+}
+table, tr, td, th{
+	border: 1px solid #4FB3BF; 
+	border-collapse: collapse;
+}
+table{
+	margin: auto;
+	width: 80%;
+}
+td, th{
+	padding: 4px;
+}
+tr:hover{
+	background-color: #4FB3BF;
+}
+header, footer {
+	background-color: #00838F;
+	color: white;
+	padding: 5px;
+	font-size: 130%;
+	text-align: center;
+}
+.leftpanel1, .leftpanel2 {
+	background-color: #EFEFEF;
+	width: 55%;
+}
+.leftpanel1{
+	height: 150px;
+	float: left;
+}
+.leftpanel2{
+	height: 300px;
+	float: left;
+}
+.rightpanel{
+	background-color: #4FB3BF;
+	width: 45%;
+	height: 450px;
+	text-align: center;
+	float: right;
+}
+footer {
+	clear: both;
+}
